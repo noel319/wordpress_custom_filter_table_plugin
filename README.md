@@ -1,4 +1,3 @@
-# wordpress_custom_filter_table_plugin
 # Custom Filter Table Plugin - Usage Guide
 
 This document provides instructions on how to use the Custom Filter Table plugin for WordPress.
