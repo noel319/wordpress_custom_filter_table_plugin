@@ -1,0 +1,119 @@
+/* Custom Filter Table Admin Styles */
+
+/* Meta Box Styles */
+.custom-filter-table-meta-box {
+    margin: 10px 0;
+}
+
+.custom-filter-table-meta-box .form-field {
+    margin-bottom: 15px;
+}
+
+.custom-filter-table-meta-box label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.custom-filter-table-meta-box input[type="text"],
+.custom-filter-table-meta-box textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.custom-filter-table-meta-box textarea {
+    min-height: 100px;
+}
+
+/* Admin Container Styles */
+.custom-filter-table-admin-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@media screen and (min-width: 782px) {
+    .custom-filter-table-admin-container {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.custom-filter-table-admin-intro {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.custom-filter-table-admin-usage {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 15px;
+    grid-column: 1 / -1;
+}
+
+.custom-filter-table-admin-shortcode {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 15px;
+    grid-column: 1 / -1;
+}
+
+.custom-filter-table-admin-shortcode table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-filter-table-admin-shortcode th,
+.custom-filter-table-admin-shortcode td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.custom-filter-table-admin-shortcode th {
+    font-weight: 600;
+}
+
+/* Import Page Styles */
+.custom-filter-table-import-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@media screen and (min-width: 782px) {
+    .custom-filter-table-import-container {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.custom-filter-table-import-form {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 15px;
+}
+
+.custom-filter-table-sample-csv {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 15px;
+}
+
+.import-spinner {
+    float: none;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.import-results {
+    margin-top: 15px;
+}

@@ -1,0 +1,138 @@
+/* Custom Filter Table Frontend Styles */
+
+/* Container */
+.custom-filter-table-container {
+    margin: 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Filter Form */
+.filter-form-container {
+    background-color: #009245;
+    padding: 15px;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 0;
+}
+
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.filter-label {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.filter-input {
+    margin-bottom: 10px;
+}
+
+.filter-select, .datepicker {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/* Table Styles */
+.custom-filter-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.custom-filter-table thead {
+    background-color: #112947;
+    color: white;
+}
+
+.custom-filter-table th {
+    padding: 12px 8px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.custom-filter-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-filter-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.custom-filter-table td {
+    padding: 10px 8px;
+    vertical-align: middle;
+}
+
+/* Download Button */
+.download-button {
+    display: inline-block;
+    background-color: #112947;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0e1f35;
+}
+
+.download-button img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* Loading */
+.loading {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #666;
+}
+
+/* No Results */
+.no-results {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .filter-row {
+        flex-direction: column;
+    }
+    
+    .filter-column {
+        width: 100%;
+    }
+    
+    .custom-filter-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
